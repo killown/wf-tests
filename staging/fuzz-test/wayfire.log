@@ -1,0 +1,141 @@
+Wayfire instance starting at 2025-05-03 14:58:00.311 with socket /tmp/wst/wayfire-af606af3-e606-4683-80a9-6c27c21beef6.socket
+II 03-05-25 11:58:00.317 - [src/main.cpp:388] Starting wayfire version 0.10.0
+II 03-05-25 11:58:00.317 - [backend/wayland/backend.c:581] Creating wayland backend
+II 03-05-25 11:58:00.318 - [util/env.c:25] Loading WLR_RENDERER option: vulkan
+II 03-05-25 11:58:00.318 - [render/vulkan/renderer.c:2481] The vulkan renderer is only experimental and not expected to be ready for daily use
+II 03-05-25 11:58:00.318 - [render/vulkan/renderer.c:2483] Run with VK_INSTANCE_LAYERS=VK_LAYER_KHRONOS_validation to enable the validation layer
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:253] Vulkan device: 'AMD Radeon RX 6600 (RADV NAVI23)'
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:254]   Device type: 'discrete'
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:255]   Supported API version: 1.4.305
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:256]   Driver version: 25.0.5
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:344]   Driver name: radv (Mesa 25.0.5-cachyos1.2)
+II 03-05-25 11:58:00.330 - [render/vulkan/vulkan.c:358] Found matching Vulkan physical device: AMD Radeon RX 6600 (RADV NAVI23)
+WW 03-05-25 11:58:00.341 - [src/default-config-backend.cpp:132] Wayfire config file specified in the environment is overridden by the command line arguments!
+II 03-05-25 11:58:00.341 - [src/default-config-backend.cpp:110] Using config file: wayfire.ini
+WW 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:575] Failed to open XML directory /home/neo/.local/share//wayfire/metadata
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/alpha.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/autostart.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/scale.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/fast-switcher.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/window-rules.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/input-method-v1.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/command.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/bench.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/idle.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/ipc-rules.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/session-lock.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/switcher.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/hide-view.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/simple-tile.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/blur.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/vswitch.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wsets.xml
+II 03-05-25 11:58:00.341 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/annotate.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/input-device.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/obs.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/preserve-output.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/focus-steal-prevent.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/showtouch.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/scale-title-filter.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/zoom.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/join-views.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/pin-view.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/view-shot.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/ipc.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/resize.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/showrepaint.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wobbly.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/mag.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/gapsdecor.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/foreign-toplevel.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/extra-gestures.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/workspace-names.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/expo.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wayfire-shell.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/hide-cursor.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/force-fullscreen.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/pixel-color.xml
+EE 03-05-25 11:58:00.342 - [subprojects/wf-config/src/xml.cpp:302] Could not parse /usr/share/wayfire/metadata/pixel-color.xml: option at line 0 has invalid default value "<shift> <BTN_RIGHT>" for type button
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/animate.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/place.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/ghost.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/gtk-shell.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/cube.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/grid.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/keycolor.xml
+II 03-05-25 11:58:00.342 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/crosshair.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/output.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/oswitch.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/fisheye.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/vswipe.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wrot.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/invert.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/xdg-activation.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/decoration.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wm-actions.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/follow-focus.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/move.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/extra-animations.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/input.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/workarounds.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/autorotate-iio.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/shortcuts-inhibit.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/focus-change.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/core.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/water.xml
+II 03-05-25 11:58:00.343 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/window-zoom.xml
+II 03-05-25 11:58:00.344 - [backend/headless/backend.c:67] Creating headless backend
+II 03-05-25 11:58:00.344 - [backend/headless/backend.c:17] Starting headless backend
+EE 03-05-25 11:58:00.344 - [src/core/core.cpp:143] Failed to create wlr_drm_lease_device_v1; VR will not be available!
+II 03-05-25 11:58:00.344 - [wayland] unable to lock lockfile /run/user/1000/wayland-1.lock, maybe another compositor is running
+II 03-05-25 11:58:00.344 - [wayland] unable to lock lockfile /run/user/1000/wayland-2.lock, maybe another compositor is running
+II 03-05-25 11:58:00.344 - [src/main.cpp:479] Using socket name wayland-3
+II 03-05-25 11:58:00.344 - [backend/wayland/backend.c:442] Starting Wayland backend
+II 03-05-25 11:58:00.344 - [src/core/output-layout.cpp:1254] new output: WL-1 ("(null) (null) (null)")
+II 03-05-25 11:58:00.344 - [src/core/output-layout.cpp:1269] Adding with 0x5dac35e51c60
+II 03-05-25 11:58:00.344 - [src/core/output-layout.cpp:527] loaded mode 500x500
+II 03-05-25 11:58:00.344 - [src/core/output-layout.cpp:700] Couldn't find matching mode 500x500@0 for output WL-1. Trying to use custom mode(might not work)
+EE 03-05-25 11:58:00.357 - [src/core/output-layout.cpp:720] Failed to change adaptive sync on output: WL-1
+EE 03-05-25 11:58:00.357 - [src/core/plugin-loader.cpp:202] Failed to load plugin "core". Make sure it is installed in /usr/lib/wayfire or in $WAYFIRE_PLUGIN_PATH.
+EE 03-05-25 11:58:00.357 - [src/core/plugin-loader.cpp:202] Failed to load plugin "input-device". Make sure it is installed in /usr/lib/wayfire or in $WAYFIRE_PLUGIN_PATH.
+EE 03-05-25 11:58:00.357 - [src/core/plugin-loader.cpp:202] Failed to load plugin "input". Make sure it is installed in /usr/lib/wayfire or in $WAYFIRE_PLUGIN_PATH.
+EE 03-05-25 11:58:00.357 - [src/core/plugin-loader.cpp:202] Failed to load plugin "output". Make sure it is installed in /usr/lib/wayfire or in $WAYFIRE_PLUGIN_PATH.
+EE 03-05-25 11:58:00.358 - [src/core/plugin-loader.cpp:202] Failed to load plugin "workarounds". Make sure it is installed in /usr/lib/wayfire or in $WAYFIRE_PLUGIN_PATH.
+(type equals variant: [type: string, value: toplevel] | (type equals variant: [type: string, value: x-or] & focusable equals variant: [type: bool, value: 1]))
+type equals variant: [type: string, value: overlay]
+false
+false
+type equals variant: [type: string, value: toplevel]
+false
+false
+false
+false
+WW 03-05-25 11:58:00.369 - [plugins/animate/animate.cpp:230] Running with Vulkan/Pixman renderers, disabling fire, spin and squeezimize animations!
+EE 03-05-25 11:58:00.374 - [plugins/cube/cube.cpp:243] cube: Wayfire does not support GLES2, disabling cube plugin
+EE 03-05-25 11:58:00.374 - [plugins/single_plugins/fisheye.cpp:121] Fisheye plugin requires OpenGL ES renderer!
+EE 03-05-25 11:58:00.374 - [plugins/single_plugins/invert.cpp:64] Invert plugin requires OpenGL ES renderer!
+II 03-05-25 11:58:00.374 - [backend/headless/backend.c:67] Creating headless backend
+II 03-05-25 11:58:00.374 - [src/core/seat/input-manager.cpp:44] handle new input: stipc_pointer, default mapping: stipc_pointer
+II 03-05-25 11:58:00.374 - [src/core/seat/input-manager.cpp:44] handle new input: stipc_keyboard, default mapping: stipc_keyboard
+EE 03-05-25 11:58:00.376 - [types/wlr_cursor.c:1190] Cannot map device "stipc_keyboard" to output (not found in this cursor)
+II 03-05-25 11:58:00.376 - [src/core/seat/input-manager.cpp:44] handle new input: stipc_touch, default mapping: stipc_touch
+EE 03-05-25 11:58:00.376 - [types/wlr_cursor.c:1190] Cannot map device "stipc_keyboard" to output (not found in this cursor)
+II 03-05-25 11:58:00.376 - [src/core/seat/input-manager.cpp:44] handle new input: stipc_tablet_tool, default mapping: stipc_tablet_tool
+EE 03-05-25 11:58:00.376 - [types/wlr_cursor.c:1190] Cannot map device "stipc_keyboard" to output (not found in this cursor)
+II 03-05-25 11:58:00.376 - [src/core/seat/input-manager.cpp:44] handle new input: stipc_tablet_pad, default mapping: stipc_tablet_pad
+EE 03-05-25 11:58:00.376 - [types/wlr_cursor.c:1190] Cannot map device "stipc_keyboard" to output (not found in this cursor)
+EE 03-05-25 11:58:00.376 - [types/wlr_cursor.c:1190] Cannot map device "stipc_tablet_pad" to output (not found in this cursor)
+II 03-05-25 11:58:00.376 - [backend/headless/backend.c:17] Starting headless backend
+true
+EE 03-05-25 11:58:00.376 - [src/api/wayfire/dassert.hpp:26] Wayfire not running with GLES renderer, no GL calls allowed!
+EE 03-05-25 11:58:00.383 - #1  wf::gles::ensure_context(bool) ??:?
+EE 03-05-25 11:58:00.387 - #2  wayfire_wobbly::init() ??:?
+EE 03-05-25 11:58:00.393 - #3  wf::plugin_manager_t::reload_dynamic_plugins() ??:?
+EE 03-05-25 11:58:00.399 - #4  wf::plugin_manager_t::plugin_manager_t() ??:?
+EE 03-05-25 11:58:00.405 - #5  wf::compositor_core_impl_t::post_init() ??:?
+EE 03-05-25 11:58:00.410 - #6  main ??:?
+EE 03-05-25 11:58:00.416 - #7  __libc_init_first ??:?
+EE 03-05-25 11:58:00.421 - #8  __libc_start_main ??:?
+EE 03-05-25 11:58:00.426 - #9  _start ??:?
+Test code starting: 2025-05-03 14:58:02.653
